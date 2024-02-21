@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <!-- bootstrap 5  css link -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- font style link -->
+  <!-- <link rel="stylesheet" href=""> -->
+
+  <!-- Custom file's Link -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+  <!-- Navbar section -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo" class="img-fluid">
+        </a>
+
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+          <ul class="navbar-nav menu-navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ">
+              <a class="main-btn" href="#contact">Here me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- navbar section exit -->
+
+  <!-- Banner section -->
+  <section id="home" class="banner_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center text-md-start">
+          <h4 class="subtitle">WELLCOME TO MY WORLD</h4>
+          <h1> I'm Purushotam <br><span>UI Developer.</span><br>I'm from Bihar</h1>
+          <div class="mt-4">
+            <a href="./my{Resume}.pdf" class="main-btn" download >Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner section exit -->
+
+  <!-- About section -->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <img src="images/about.jpg" class="img-fluid rounded-3 " alt="about-us image">
+        </div>
+        <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+          <div class="my-3 my-lg-0">
+            <span class="subtitle">My About Details</span>
+            <h2>About Me</h2>
+            <p>I am a competent,loyal,hard working  with the
+              ability to achieve tasks when working alone or as part of a tem
+            </p>
+          </div>
+
+          <div class="pt-4">
+            <ul class="nav nav-pills mb-3 justify-content-center justify-content-lg-between" id="pills-tab"
+              role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill"
+                  type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skills</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-aquireskill-tab" data-bs-toggle="pill" data-bs-target="#pills-aquireskill"
+                  type="button" role="tab" aria-controls="pills-aquireskill" aria-selected="false">Aquire skills</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance"
+                  aria-selected="false">Traning</button>
+              </li>
+
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                  aria-selected="false">Education</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab"
+                tabindex="0">
+
+                <div class="singal-progress">
+                  <h6>Bootstrap 5</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:90%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">90%</span>
+                </div>
+
+                <div class="singal-progress">
+                  <h6>HTML5</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:95%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">95%</span>
+                </div>
+
+                <div class="singal-progress">
+                  <h6>CSS3</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:80%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">80%</span>
+                </div>
+
+                <div class="singal-progress">
+                  <h6>JavaScript</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:75%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">75%</span>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-aquireskill" role="tabpanel" aria-labelledby="pills-Aquire-tab"
+                tabindex="0">
+                <div class="singal-progress">
+                  <h6>Figma Design</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:60%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">60%</span>
+                </div>
+
+                <div class="singal-progress">
+                  <h6>TypeScript</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:70%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">70%</span>
+                </div>
+
+                <div class="singal-progress">
+                  <h6>SQL</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:80%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">80%</span>
+                </div>
+
+                <div class="singal-progress">
+                  <h6>Angular 16</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width:50%;" aria-valuenow="25" aria-valuemin="0"
+                      aria-valuemax="100">
+                    </div>
+                  </div>
+                  <span class="label">50%</span>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab"
+                tabindex="0">
+                <ul class="text-start ps-0">
+                  <li> <a href="#">
+                    Web-development
+                      <span>Ducat Noida Pvt Ltd</span></a>
+                      Sep 2022 To March 2023
+                  </li>
+                  <li> <a href="#">
+                      Core Java
+                      <span>Smartprograming Pvt Ltd</span></a>
+                     2 month online
+                  </li>
+                  <li><a href="#">
+                    Frontend 
+                      <span> Thapatecnical Youtube</span>
+                    </a>
+                    25sep to currently
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab"
+                tabindex="0">
+                <ul class="text-start ps-0">
+                  <li><a href="#">BCA 
+                      <span>-Sandip university, Bihar</span>
+                    </a>2020-2023
+                  </li>
+                  <li><a href="#">12th
+                      <span>-S.N.Sahay collage,Muzaffarpur-BSEB</span>
+                    </a>2018-2020
+                  </li>
+                  <li><a href="#">10th 
+                      <span>-Height School Motipur-BSEB</span>
+                    </a>2018
+                  </li>
+    
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section exit -->
+
+  <!-- Services section -->
+  <section id="services" class="services_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Comlete project</span>
+          <h2>My Awesome Service</h2>
+          <p>Give below all project fucessfuly creat and one serve a car-rental app page design
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-md-start text-center">
+              <img src="./images/service/service-1.svg" alt="service" class="img-fluid mb-4">
+              <h3>Web-development</h3>
+              <p> this portfolio website create Successfully. this project use full to every one to all detail in a online serve to see any 
+                company and choese you hire or not
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-md-start text-center">
+              <img src="./images/service/service-2.svg" alt="service" class="img-fluid mb-4">
+              <h3>Web-development</h3>
+              <p> Onlie Food ordering website Successfully create on angular-16 
+                <!-- it is my first angular website which 
+                I Created with the help of youtube 
+                videos. -->
+                I improved my learning while 
+                making it and got to learn many things</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body text-md-start text-center">
+              <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+              <h3>Mobile App Design</h3>
+              <p>Successfully surveyed car rental app, I designed it on Figma,The project was completed and the cliennt was happy.</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+              <h3>Mobile App Development</h3>
+              <p>Lorem ipsum color sit amet,conse ctetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./images/service/service-4.svg" alt="service" class="img-fluid mb-4">
+              <h3>Marketing & Reporting</h3>
+              <p>Lorem ipsum color sit amet,conse ctetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body text-md-start text-center">
+              <img src="./images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+              <h3>Mobile App Development</h3>
+              <p>Lorem ipsum color sit amet,conse ctetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+  </section>
+  <!-- services section exit -->
+
+  <!-- portfolio Section -->
+  <section id="portfolio" class="portfolio_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center mb-4">
+          <span class="subtitle">My Comlete project</span>
+          <h2>My Latest Project</h2>
+          <p>There are many variations of passages of lorem Ipsum available,<br class="d-none d-md-block">
+            but the majority have suffered alteration.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/Foodies.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/App-Landing-Page.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/E-Commerce-Website-Using-Bootstap-5.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/HeadPhones.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/Ecommerce-Jewellery-Website.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/Hashtag-Landing-Page.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/Christmas-Landing-Page.png')"></span>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-0">
+            <span style="background-image:url('./images/portfolio/SEO-Landing-Page.png')"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- portfolio section exit -->
+
+  <!-- Contact section -->
+  <section id="contact" class="contact_wrapper">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-6 order-2 order-lg-1 pe-1 pe-5 text-lg-start text-center">
+          <span class="subtitle">My Comlete project</span>
+          <h2>Hire Me.</h2>
+          <div class="row call_details mb-4">
+            <label class="col-sm-3 col-lg-4">Call us directly:</label>
+
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+              <a>+91 88888 88888</a>
+            </div>
+
+            <label class="col-sm-3 col-lg-4">Contact Email:</label>
+
+            <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+              <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </div>
+          </div>
+          <form>
+            <div class="mb-4">
+              <input type="text"class="form-control" placeholder="Your Name..." autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <input type="number"class="form-control" placeholder="Your phone..." autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <input type="email"class="form-control" placeholder="Your Email..." autocomplete="off">
+            </div>
+            <div class="mb-4">
+              <textarea name="" id="" cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message..." autocomplete="off">
+              </textarea>
+            </div>
+            <button type="submit"class="main-btn">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+          <img src="./images/contact.jpg" alt="image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact section exit -->
+
+  <!-- footer Section -->
+  <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-md-6 text-center text-md-start">
+          <div class="footer-logo mb-3 mb-md-0">
+            <img src="images/logo.png" alt="logo image" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <ul class="list-unstyled d-flex justify-content-md-end justify-content-center justify-content-lg-center social-icon mb-3 mb-md-0">
+            
+            <li>
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+            </li>
+            <li>
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg></a>
+            </li>
+            <li>
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+            </li>
+            <li>
+              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+            <p class="mb-0">Copyright &copy; 2023 <a href="#">brainTechtecnology</a>.All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- footer section exit -->
+
+
+  <!-- bootstrap js link -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <!-- custom js link -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
